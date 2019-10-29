@@ -4,7 +4,7 @@ Universidade do Minho
 
 Análise e Teste de Software
 
-Unidade Curricular complementar - [ATS]
+Unidade curricular complementar
 
 Mestrado Integrado em Engenharia Informática
 
