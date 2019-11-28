@@ -12,6 +12,7 @@ nomesFamilia = ["Silva","Santos","Ferreira","Pereira","Oliveira","Costa","Rodrig
 moradas = ["Amares","Barcelos","Braga","Cabeceiras de Basto","Celorico de Basto","Esposende","Fafe","Guimaraes","Povoa de Lanhoso","Terras do Bouro","Vieira do Minho","Vila Nova de Famalicao","Vila Verde","Vizela","Arcos de Valdevez","Caminha","Melgaco","Moncao","Paredes de Coura","Ponte da Barca","Ponte do Lima","Valenca","Viana do Castelo","Vila Nova de Cerveira"]
 
 genNome :: Gen Nome
+<<<<<<< HEAD
 genNome = do a <- elements nomesProprios
              b <- elements nomesFamilia
              return (a++" "++b)
