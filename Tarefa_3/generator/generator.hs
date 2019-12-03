@@ -1,3 +1,5 @@
+module Main ( main ) where
+
 import Test.QuickCheck
 
 type Nome = String
@@ -12,7 +14,6 @@ nomesFamilia = ["Silva","Santos","Ferreira","Pereira","Oliveira","Costa","Rodrig
 moradas = ["Amares","Barcelos","Braga","Cabeceiras de Basto","Celorico de Basto","Esposende","Fafe","Guimaraes","Povoa de Lanhoso","Terras do Bouro","Vieira do Minho","Vila Nova de Famalicao","Vila Verde","Vizela","Arcos de Valdevez","Caminha","Melgaco","Moncao","Paredes de Coura","Ponte da Barca","Ponte do Lima","Valenca","Viana do Castelo","Vila Nova de Cerveira"]
 
 genNome :: Gen Nome
-<<<<<<< HEAD
 genNome = do a <- elements nomesProprios
              b <- elements nomesFamilia
              return (a++" "++b)
@@ -73,18 +74,42 @@ genCliente' (a:as) (b:bs) (c:cs) (d:ds) (x:xs) (y:ys) = [("NovoCliente:"++a++":"
 
 --NovoCarro:tipo,marca,matricula,nif,velocidade media,preço por km, consumo por km, autonomia, X, Y
 genTipo :: Gen String
-genTipo = frequency [(100, return "Combustao"),(50,"Gasolina"),(20,"Hibrido"),(15,"Eletrico")]
+genTipo = frequency [(9900,return "Gasolina"),(800,return "Hibrido"),(400,return "Eletrico")]
 
 genMarca :: Gen String
-genMarca = frequency [(120,return "Renault"),(85,return "Mercedes"),(12,return "Porsche"),(4,return "Ferrari")]
+genMarca = frequency [(82,return "Abarth"),(363,return "Alfa Romeo"),(19,return "Aston Martion"),(2452,return "Audi"),(5042,return "BMW"),(160,return "Chevrolet"),(1724,return "Citroen"),(152, return "Dacia"),(115, return "DS"),(55, return "Ferrari"),(1948,return "Fiat"),(1645,return "Ford"),(323,return "Honda"),(392,return "Hyundai"),(4852,return "Mercedes")]
 
-genAutonomia :: Gen Autonomia
-genAutonomia = elements [450..600]
+genMatricula :: Gen String
+genMatricula = do a <- elements ['A'..'Z']
+                  b <- elements ['A'..'Z']
+                  c <- elements ['0'..'9']
+                  d <- elements ['0'..'9']
+                  e <- elements ['0'..'9']
+                  f <- elements ['0'..'9']
+                  frequency [(80,return (c:d:'-':a:b:'-':e:f:[])),(15,return (c:d:'-':e:f:'-':a:b:[])),(5,return (a:b:'-':c:d:'-':e:f:[]))]
 
+genVelocidade :: Gen Int
+genVelocidade = elements [40..90]
+
+genPreco :: Gen Float
+genPreco = choose ((1.2001),3)
+
+genConsumo :: Gen Float
+genConsumo = choose (1.0000,4)
+
+genAutonomia :: Gen Int
+genAutonomia = frequency [(70,(elements [450..600])),(10,(elements [600..900])),(20,(elements [350..450]))]
 
 --Aluguer: nif cliente, X destino, Y destino, tipoCombustivel , preferencia
+genPerferencia :: Gen String
+genPerferencia = elements ["MaisPerto","MaisBarato"]
 
 --Classificar: matricula ou nif (cliente ou prop) , nota (0-100)
+genNota :: Gen Int
+genNota = frequency [(80,(elements [50..80])),(1,(elements [0..40])),(4,(elements [41..49])),(15,(elements [81..100]))]
+
+genLogs :: Int -> Gen [String]
+genLogs n = do a <- vectorOf n $ genNif 
 
 delete element list = filter (\e -> e/=element) list
 
