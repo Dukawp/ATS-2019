@@ -46,33 +46,33 @@ genMorada = elements moradas
 genProp :: Int -> [String] -> Gen [Prop]
 genProp 0 _ = return []
 genProp n b = do a <- vectorOf n $ genNome
-                 c <- vectorOf n $ genEmail 
+                 --c <- vectorOf n $ genEmail 
                  d <- vectorOf n $ genMorada 
                  --return []
-                 return (genProp' a b c d)
+                 return (genProp' a b d)
 
 
 --NovoProp: nome, nif, email,morada
-genProp' :: [Nome] -> [Nif] -> [Email] -> [Morada] -> [Prop]
-genProp' [] _ _ _ = []
-genProp' (a:as) (b:bs) (c:cs) (d:ds) = [("NovoProp:"++a++","++b++","++c++","++d)]++(genProp' as bs cs ds)
+genProp' :: [Nome] -> [Nif] -> [Morada] -> [Prop]
+genProp' [] _ _ = []
+genProp' (a:as) (b:bs) (d:ds) = [("NovoProp:"++a++","++b++","++b++"@gmail.com,"++d)]++(genProp' as bs ds)
 
 genCliente :: Int -> [String] -> Gen [Cliente]
 genCliente 0 _ = return []
 genCliente n b = do a <- vectorOf n $ genNome
-                    c <- vectorOf n $ genEmail 
+                    --c <- vectorOf n $ genEmail 
                     d <- vectorOf n $ genMorada 
                     x <- vectorOf n $ choose ((-9.32),(-6.32))
                     y <- vectorOf n $ choose ((37.0),(42.0))
-                    return (genCliente' a b c d x y)
+                    return (genCliente' a b d x y)
 
 --NovoCliente:nome,nif,email,morada,X,Y
-genCliente' :: [Nome] -> [Nif] -> [Email] -> [Morada] -> [Float] -> [Float] -> [Cliente]
-genCliente' [] _ _ _ _ _ = []
-genCliente' (a:as) (b:bs) (c:cs) (d:ds) (x:xs) (y:ys) = [("NovoCliente:"++a++","++b++","++c++","++d++","++(show x)++","++(show y))]++(genCliente' as bs cs ds xs ys)
+genCliente' :: [Nome] -> [Nif] -> [Morada] -> [Float] -> [Float] -> [Cliente]
+genCliente' [] _ _ _ _ = []
+genCliente' (a:as) (b:bs) (d:ds) (x:xs) (y:ys) = [("NovoCliente:"++a++","++b++","++b++"@gmail.com,"++d++","++(show x)++","++(show y))]++(genCliente' as bs ds xs ys)
 
 genTipo :: Gen String
-genTipo = frequency [(9900,return "Gasolina"),(800,return "Hibrido"),(400,return "Eletrico")]
+genTipo = frequency [(9900,return "Gasolina"),(800,return "Hibrido"),(400,return "Electrico")]
 
 genMarca :: Gen String
 genMarca = frequency [(82,return "Abarth"),(363,return "Alfa Romeo"),(19,return "Aston Martion"),(2452,return "Audi"),(5042,return "BMW"),(160,return "Chevrolet"),(1724,return "Citroen"),(152, return "Dacia"),(115, return "DS"),(55, return "Ferrari"),(1948,return "Fiat"),(1645,return "Ford"),(323,return "Honda"),(392,return "Hyundai"),(4852,return "Mercedes")]
