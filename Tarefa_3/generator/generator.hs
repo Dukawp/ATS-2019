@@ -102,7 +102,7 @@ genCarro :: Int -> [String] -> [String] -> Gen [String]
 genCarro 0 _ _ = return []
 genCarro n c nifs = do a <- vectorOf n $ genTipo
                        b <- vectorOf n $ genMarca
-                       d <- shuffle $ (nifs++nifs++nifs++nifs++nifs++nifs++nifs++nifs++nifs++nifs++nifs++nifs)
+                       d <- shuffle $ multiplyList ((n `quot` (length nifs))+1) nifs
                        e <- vectorOf n $ genVelocidade
                        f <- vectorOf n $ genPreco
                        g <- vectorOf n $ genConsumo
@@ -123,7 +123,7 @@ genPerferencia = elements ["MaisPerto","MaisBarato"]
 
 genAluguer :: Int -> [String] -> Gen [String]
 genAluguer 0 _ = return []
-genAluguer n nifs = do a <- shuffle $ (nifs++nifs++nifs++nifs)                      
+genAluguer n nifs = do a <- shuffle $ multiplyList ((n `quot` (length nifs))+1) nifs                   
                        x <- vectorOf n $ choose ((-9.32),(-6.32))
                        y <- vectorOf n $ choose ((37.0),(42.0))
                        b <- vectorOf n $ genTipo
@@ -166,7 +166,9 @@ main = do nifProps <- generate $ vectorOf 200 $ genNif
           mapM_ putStrLn clas
 
 
-
+multiplyList :: Int -> [a] -> [a] 
+multiplyList 0 list = []
+multiplyList n list = list++(multiplyList (n-1) list)
 
 delete element list = filter (\e -> e/=element) list
 
