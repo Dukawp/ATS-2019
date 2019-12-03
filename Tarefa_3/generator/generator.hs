@@ -1,6 +1,7 @@
 module Main ( main ) where
 
 import Test.QuickCheck
+import System.Environment
 
 type Nome = String
 type Email = String
@@ -151,20 +152,22 @@ genClassificar' (a:as) (b:bs) = ["Classificar:"++a++","++(show b)]++(genClassifi
 --genLogs :: Int -> Gen [String]
 --genLogs n = do nifs <- vectorOf n $ genNif 
 
-main = do nifProps <- generate $ vectorOf 200 $ genNif 
-          nifClientes <- generate $ vectorOf 600 $ genNif
-          props <- generate $ genProp 200 nifProps
-          clients <- generate $ genCliente 600 nifClientes
-          matriculas <- generate $ vectorOf 2000 $ genMatricula
-          cars <- generate $ genCarro 2000 matriculas nifProps
-          alu <- generate $ genAluguer 500 nifClientes
-          clas <- generate $ genClassificar 2000 matriculas nifProps
+main = do args <- getArgs
+          let arg1 = head args
+          let n = (read arg1) :: Int
+          nifProps <- generate $ vectorOf (200*n) $ genNif 
+          nifClientes <- generate $ vectorOf (600*n) $ genNif
+          props <- generate $ genProp (200*n) nifProps
+          clients <- generate $ genCliente (600*n) nifClientes
+          matriculas <- generate $ vectorOf (2000*n) $ genMatricula
+          cars <- generate $ genCarro (2000*n) matriculas nifProps
+          alu <- generate $ genAluguer (500*n) nifClientes
+          clas <- generate $ genClassificar (2000*n) matriculas nifProps
           mapM_ putStrLn props
           mapM_ putStrLn clients
           mapM_ putStrLn cars
           mapM_ putStrLn alu
           mapM_ putStrLn clas
-
 
 multiplyList :: Int -> [a] -> [a] 
 multiplyList 0 list = []
