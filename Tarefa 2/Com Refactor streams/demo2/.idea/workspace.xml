@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2168705-b8b6-47a1-824c-0d72a2e64721" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1UG0X3Ah9u1qFV9fUjyNHLu5gjG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aRed smell" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UmCarroJaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UmCarroJaApp" />
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UmCarroJaApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2168705-b8b6-47a1-824c-0d72a2e64721" name="Default Changelist" comment="" />
+      <created>1574967660102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574967660102</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1326" height="297" key="GridCell.Tab.0.bottom" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.0.center" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.0.left" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.0.right" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.1.bottom" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.bottom/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.1.center" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.center/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.1.left" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.left/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state width="1326" height="297" key="GridCell.Tab.1.right" timestamp="1575388937836">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.right/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
+    <state x="186" y="98" key="SettingsEditor" timestamp="1575386878452">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="186" y="98" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1575386878452" />
+    <state x="377" y="192" width="613" height="526" key="find.popup" timestamp="1575997276467">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="377" y="192" width="613" height="526" key="find.popup/0.0.1368.912@0.0.1368.912" timestamp="1575997276467" />
+  </component>
+</project>

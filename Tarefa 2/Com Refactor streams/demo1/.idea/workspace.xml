@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aef4c153-e473-45ab-9c81-47e88580b511" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UTba89xIz9dvoyQP0o1in69ljC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Code smell.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="demo1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Duka_\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aef4c153-e473-45ab-9c81-47e88580b511" name="Default Changelist" comment="" />
+      <created>1575383592629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575383592629</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="211" key="FileChooserDialogImpl" timestamp="1575991496964">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="465" y="211" key="FileChooserDialogImpl/0.0.1368.912@0.0.1368.912" timestamp="1575991496964" />
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom" timestamp="1575389137876">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1575389137876" />
+    <state width="1326" height="240" key="GridCell.Tab.0.center" timestamp="1575389137876">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1575389137876" />
+    <state width="1326" height="240" key="GridCell.Tab.0.left" timestamp="1575389137876">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1575389137876" />
+    <state width="1326" height="240" key="GridCell.Tab.0.right" timestamp="1575389137876">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1575389137876" />
+    <state x="465" y="234" width="436" height="483" key="RefactorJ.WrapReturnValue" timestamp="1575992169996">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="465" y="234" width="436" height="483" key="RefactorJ.WrapReturnValue/0.0.1368.912@0.0.1368.912" timestamp="1575992169996" />
+    <state x="186" y="62" key="SettingsEditor" timestamp="1575995166801">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="186" y="62" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1575995166801" />
+    <state x="416" y="212" key="extract.method.dialog" timestamp="1575991961949">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="416" y="212" key="extract.method.dialog/0.0.1368.912@0.0.1368.912" timestamp="1575991961949" />
+    <state x="377" y="61" width="613" height="789" key="find.popup" timestamp="1575996369830">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="377" y="61" width="613" height="789" key="find.popup/0.0.1368.912@0.0.1368.912" timestamp="1575996369830" />
+  </component>
+</project>
