@@ -41,23 +41,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarsTest.testGetCar">
-    <configuration name="CarsTest.addCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.CarsTest" />
-      <option name="METHOD_NAME" value="addCar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UsersTest.getUser">
     <configuration name="CarsTest.getCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
       <extension name="coverage">
@@ -69,38 +53,6 @@
       <option name="PACKAGE_NAME" value="Model" />
       <option name="MAIN_CLASS_NAME" value="Model.CarsTest" />
       <option name="METHOD_NAME" value="getCar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarsTest.listOfCarType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.CarsTest" />
-      <option name="METHOD_NAME" value="listOfCarType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarsTest.searchCar2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Model" />
-      <option name="MAIN_CLASS_NAME" value="Model.CarsTest" />
-      <option name="METHOD_NAME" value="searchCar2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,13 +74,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsersTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.UsersTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersTest.addUserTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.UsersTest" />
+      <option name="METHOD_NAME" value="addUserTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.UsersTest" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsersTest.getUser" />
+        <item itemvalue="JUnit.UsersTest.addUserTest2" />
+        <item itemvalue="JUnit.UsersTest.addUser" />
         <item itemvalue="JUnit.CarsTest.testGetCar" />
         <item itemvalue="JUnit.CarsTest.getCar" />
-        <item itemvalue="JUnit.CarsTest.listOfCarType" />
-        <item itemvalue="JUnit.CarsTest.searchCar2" />
-        <item itemvalue="JUnit.CarsTest.addCar" />
       </list>
     </recent_temporary>
   </component>
@@ -162,30 +162,30 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="231" y="187" key="#Project_Structure/0.0.1368.912@0.0.1368.912" timestamp="1577110549859" />
-    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577113327142">
+    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577138138188">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1368.912@0.0.1368.912" timestamp="1577113327142" />
+    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1368.912@0.0.1368.912" timestamp="1577138138188" />
     <state x="470" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1577110546632">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="470" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1368.912@0.0.1368.912" timestamp="1577110546632" />
-    <state width="1326" height="297" key="GridCell.Tab.0.bottom" timestamp="1577113617358">
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom" timestamp="1577139435577">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1577113617358" />
-    <state width="1326" height="297" key="GridCell.Tab.0.center" timestamp="1577113617358">
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1577139435577" />
+    <state width="1326" height="240" key="GridCell.Tab.0.center" timestamp="1577139435577">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1577113617358" />
-    <state width="1326" height="297" key="GridCell.Tab.0.left" timestamp="1577113617358">
+    <state width="1326" height="240" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1577139435577" />
+    <state width="1326" height="240" key="GridCell.Tab.0.left" timestamp="1577139435576">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1577113617358" />
-    <state width="1326" height="297" key="GridCell.Tab.0.right" timestamp="1577113617358">
+    <state width="1326" height="240" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1577139435576" />
+    <state width="1326" height="240" key="GridCell.Tab.0.right" timestamp="1577139435577">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1577113617358" />
+    <state width="1326" height="240" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1577139435577" />
     <state width="1326" height="297" key="GridCell.Tab.1.bottom" timestamp="1577113617359">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -206,9 +206,13 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="408" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1368.912@0.0.1368.912" timestamp="1577110539653" />
-    <state x="456" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577110599225">
+    <state x="456" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577137099648">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="456" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1368.912@0.0.1368.912" timestamp="1577110599225" />
+    <state x="456" y="159" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1368.912@0.0.1368.912" timestamp="1577137099648" />
+    <state x="427" y="84" key="refactoring.ChangeSignatureDialog" timestamp="1577137735574">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="427" y="84" key="refactoring.ChangeSignatureDialog/0.0.1368.912@0.0.1368.912" timestamp="1577137735574" />
   </component>
 </project>
