@@ -1,0 +1,1 @@
+[MASTER] 11:48:23.377 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself

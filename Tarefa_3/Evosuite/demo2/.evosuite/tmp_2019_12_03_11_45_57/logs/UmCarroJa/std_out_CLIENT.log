@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 19720
+* Analyzing classpath: 
+  - /Users/joaopalmeira/Desktop/UM/4ano/1Semestre/ATS/demo2/target/classes
+  - /Users/joaopalmeira/Desktop/UM/4ano/1Semestre/ATS/demo2/target/classes
+  - /Users/joaopalmeira/.m2/repository/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+* Finished analyzing classpath
+* Generating tests for class UmCarroJa
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:46:31.582 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/joaopalmeira/Desktop/UM/4ano/1Semestre/ATS/demo2/.evosuite/evosuite-seeds/UmCarroJa.seed
+* Loaded 0 tests from /Users/joaopalmeira/Desktop/UM/4ano/1Semestre/ATS/demo2/.evosuite/evosuite-seeds/UmCarroJa.seed
+* Total number of test goals: 
+  - Line 368
+  - Branch 228
+  - Exception 0
+  - MutationFactory 574
+  - Output 172
+  - Method 48
+  - MethodNoException 48
+  - CBranchFitnessFactory 228
+* Using seed 1575373585735
+* Starting evolution
+* Search finished after 63s and 44 generations, 13765 statements, best individual has fitness: 1302.8560313532375
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 38%
+* Total number of goals: 368
+* Number of covered goals: 138
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 31%
+* Total number of goals: 228
+* Number of covered goals: 71
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 36
+* Number of covered goals: 36
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 17%
+* Total number of goals: 574
+* Number of covered goals: 98
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 12%
+* Total number of goals: 172
+* Number of covered goals: 20
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 48
+* Number of covered goals: 48
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 44%
+* Total number of goals: 48
+* Number of covered goals: 21
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 31%
+* Total number of goals: 228
+* Number of covered goals: 71
+* Generated 54 tests with total length 163
+* Resulting test suite's coverage: 47% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+[MASTER] 11:47:55.106 [pool-2-thread-1] WARN  TestSuiteGenerator - JUnit checking timed out
+[MASTER] 11:47:55.111 [pool-2-thread-1] WARN  TimeController - Phase JUNIT_CHECK lasted too long, 2 seconds more than allowed.
+* Writing JUnit test case 'UmCarroJa_ESTest' to /Users/joaopalmeira/Desktop/UM/4ano/1Semestre/ATS/demo2/.evosuite/tmp_2019_12_03_11_45_57/tests
+* Done!
+
