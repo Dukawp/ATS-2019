@@ -1,0 +1,82 @@
+Ter em ATENÇÃO
+
+ARRAY COPY..
+MATRIZES...
+STRING HANDLING ( + em vez do uso do StringBuilder)
+EXCEPTION HANDLING
+OPERAÇOES ARITMETICAS
+
+USO DE SETS E GETS
+USO DE ARRAYLIST JA CRIADO E DAR RESET EM VEZ DE CRIAR UM NOVO
+USO DE TIPOS PRIMITIVOS EM VEZ DE OBJETOS
+
+DIFERENTES VERSOES COM LIST SETS E MAPS
+
+STREAMS
+
+
+----------------DEMO1----------------
+Correcção de erros :
+	- weather.java 
+		getSeason() com erro quando o mes é 12 pois o array so tem 12 elem
+
+
+
+Controller
+imports especificos
+novo metodo para cada case
+
+Car
+imports especificos
+add equalAux
+tirar gets de alguns metodos que usavam o get
+
+Cars
+imports especificos
+novo metodo para cada if do getCar
+
+
+----------------DEMO2----------------
+
+unused imports em quase todas as classes....
+
+-----CoordinateManager
+addDistanceNorth new DOUBLE??
+e todos os outros em que faz o mesmo...
+if replaced with conditional expression (ex: .... return aa ? true : false)
+
+-----UmCarroJA
+.size()=0 replace with isEmpty()
+
+-----Aluguer
+auxEquals 15--> 4
+
+-----UmcarroJa
+AlugueresClassAux
+if replaced with conditional expression (ex: .... return aa ? true : false)
+simplify condition ... pointless boolean (ex: ... CoordinateManager.isValidLongitude(longitude) == true para CoordinateManager.isValidLongitude(longitude)  )
+Duplicate throw no guardaEstado
+Uso de data type primitivo neste caso tudo (int )c em vez do  c.intValue()
+
+v.getDatasAlugueres().stream().filter(d -> d.isAvailable(date)).count() == 0 -->  v.getDatasAlugueres().stream().noneMatch(d -> d.isAvailable(date))
+
+
+
+-----UmCarroJaAPP
+troca de if por switch no parseAluguer
+troca de if por switch no lerDadosTXT
+simplify condition ... pointless boolean (ex: ... CoordinateManager.isValidLongitude(longitude) == true para CoordinateManager.isValidLongitude(longitude)  )
+
+
+
+-----ParDatas
+if replaced with conditional expression (ex: .... return aa ? true : false)
+
+-----Coordinate
+simplify condition ... pointless boolean (ex: ... CoordinateManager.isValidLongitude(longitude) == true para CoordinateManager.isValidLongitude(longitude)  )
+
+-----Proprietario
+metodo vazio..
+
+-----Veiculo
+Uso de data type primitivo neste caso tudo (int )c em vez do  c.intValue()

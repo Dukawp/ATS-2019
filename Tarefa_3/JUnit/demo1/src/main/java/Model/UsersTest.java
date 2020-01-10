@@ -19,11 +19,12 @@ class UsersTest {
     @Test
     void addUserTest() throws UserExistsException{
         userBase.addUser(u);
-        assertEquals(1, userBase.());
+        assertEquals(1, userBase.getClientIDS().size());
     }
 
     @Test
-    void getCLientsIdsTest() {
+    void getCLientsIdsTest() throws UserExistsException {
+        userBase.addUser(u);
         assertEquals(1, userBase.getClientIDS().size());
     }
 
