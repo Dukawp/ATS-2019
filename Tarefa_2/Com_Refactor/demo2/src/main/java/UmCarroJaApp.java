@@ -11,23 +11,20 @@
  * @version 20190415
  */
 
+import java.io.*;
 import static java.lang.System.out;
 
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.ArrayList;
+
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.Comparator;
 
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 
 import java.lang.String;
@@ -138,11 +135,8 @@ public class UmCarroJaApp{
      * guardada no ficheiro de dados.
      */
     private static void lerData(){
-        GregorianCalendar dataAtual;
+        GregorianCalendar dataAtual = new GregorianCalendar();
         out.print("Digite a Data do Dia de Hoje (dd-mm-aaaa): ");
-        do {
-            dataAtual  = Input.lerData("Data de Hoje Inválida! Digite Novamente a Data (dd-mm-aaaa): ", "Digite a Data do Dia de Hoje (dd-mm-aaaa): ");
-        }while ((!(dataInicioApp.equals(dataAtual)) || dataAtual.before(dataInicioApp)));
         dataInicioApp = dataAtual;
         UmCarroJaApp.guardarDados();
     }
@@ -157,56 +151,101 @@ public class UmCarroJaApp{
         System.out.print('\u000C');
     }
     
-    public static void main(String[] args){
-        //initApp();
-        initMenus();
+    public static void main(String[] args) throws NaoExistemClientesException {
+
+        //Carregamento do ficheiro
         ucj = new UmCarroJa();
+        long start = System.currentTimeMillis();
         double[] before = EnergyCheckUtils.getEnergyStats();
         lerDadosTXT("logsTestLarge.bak");
-        out.println("NÚMERO UTILIZADORES: " + ucj.getNUsers());
-        out.println("NÚMERO VEÍCULOS: " + ucj.getNVeiculos());
-        out.println("NÚMERO ALUGUERES: " + ucj.getNAlugs());
         double[] after = EnergyCheckUtils.getEnergyStats();
-        System.out.println("Energy consumption of dram: " + (after[0] - before[0])+ " Energy consumption of cpu: " + (after[1] - before[1])+ " Energy consumption of package: " + (after[2] - before[2]));
-        //printUsers();
-        //printVeiculos();
-        //printAlugs();
-        lerData();
-        
-        ucj.alugueresEfetuados(dataInicioApp);
-        do{
-            UmCarroJaApp.clearScreen();
-            menuInicial.executa();
-            switch(menuInicial.getOpcao()){
-                case 1:
-                    try {
-                        menuUtilizador();
-                    } catch (UtilizadorNaoExisteException e) {
-                        e.printStackTrace();
-                    } catch (PasswordIncorretaException e) {
-                        e.printStackTrace();
-                    }
-                    break;
-                case 2: menuAdmin();
-                        break;
-                case 3: guardarDados();
-                        break;
-            }
-        }while(menuInicial.getOpcao() != 0);
-        guardarDados();
+        long finish = System.currentTimeMillis();
+        long timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+        //GET CLIENTS WITH MORE ALUGUERES
+        start = System.currentTimeMillis();
+        before = EnergyCheckUtils.getEnergyStats();
+        ucj.get10ClientesAlugueres();
+        after = EnergyCheckUtils.getEnergyStats();
+        finish = System.currentTimeMillis();
+        timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+        //ADDUSER
+        try{
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            GregorianCalendar in = new GregorianCalendar();
+            Utilizador u = new Utilizador("ats", "999999999", "ats@gmail.com", "999999999", "UM", in);
+            ucj.registarUtilizador(u);
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch(UtilizadorJaExisteException e){
+            e.printStackTrace();
+        }
+
+        //ADD CAR
+        try {
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            Coordinate p = new Coordinate(10,10);
+            List<ParDatas> l = new ArrayList<>();
+            Veiculo v = new Veiculo("BMW","AA-00-AA","999999999",260,1.4,10.8,360,p,true,5,l);
+            ucj.registarVeiculo(v);
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch (VeiculoJaExisteException e) {
+            e.printStackTrace();
+        }
+
+        //INICIAR SESSÃO
+        try{
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            ucj.iniciarSessao("ats@gmail.com", "999999999");
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch (UtilizadorNaoExisteException | PasswordIncorretaException e){
+            e.printStackTrace();
+        }
+
+        //GET BEST CLIENTS WITH MORE KM
+        start = System.currentTimeMillis();
+        before = EnergyCheckUtils.getEnergyStats();
+        ucj.get10ClientesKm();
+        after = EnergyCheckUtils.getEnergyStats();
+        finish = System.currentTimeMillis();
+        timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+
+
     }
     
     /******************************************************************************
      *                            MENU DOS UTILIZADORES                           *
      ******************************************************************************/
      
-    private static void menuUtilizador() throws UtilizadorNaoExisteException, PasswordIncorretaException {
+    private static void menuUtilizador(){
         UmCarroJaApp.clearScreen();
         do{
             menuUtilizador.executa();
             switch(menuUtilizador.getOpcao()){
                 case 1:
-                    iniciarSessao();
+                    try{
+                        iniciarSessao();
+                    }catch (UtilizadorNaoExisteException e){
+                        out.println("O utilizador introduzido não se encontra registado!");
+                    }catch (PasswordIncorretaException p){
+                        out.println("A password que introduziu está incorreta!");
+                    }
                     break;
                 case 2: registarUtilizador();
                         break;                        
@@ -222,7 +261,7 @@ public class UmCarroJaApp{
      * as exceções UtilizadorNaoExisteException caso o utilizador não esteja registado e a exceção
      * PasswordIncorretaException, caso a password esteja incorreta.
      */
-    private static void iniciarSessao() {
+    private static void iniciarSessao() throws UtilizadorNaoExisteException, PasswordIncorretaException{
         String email;
         String password;
         
@@ -397,7 +436,7 @@ public class UmCarroJaApp{
         } catch(VeiculoNaoExisteException e) {
             out.println("Veiculo " + e.getMessage() + " não existe.");
         }
-        if(alugs.isEmpty()) {
+        if(alugs.size() == 0) {
             out.print("Não existem alugures entre essas datas.");
         } else {
             for(Aluguer a : alugs){
@@ -460,7 +499,7 @@ public class UmCarroJaApp{
                 case 1: registarVeiculoProp();
                         break;
                 case 2: setVeiculoDisponivel();
-                        break;
+                        break;     
                 case 3: abastecerVeiculoProp();
                         break;
                 case 4: altPKMVeiculo();
@@ -472,8 +511,6 @@ public class UmCarroJaApp{
                 case 7: getListaDeAlugueres();
                         break;
                 case 8: calcFactBDates();
-                        break;
-                default:
                         break;
             }
         }while(menuProprietario.getOpcao() != 0);
@@ -572,7 +609,11 @@ public class UmCarroJaApp{
         if (tipoVeiculo == 1){
             vr = new CarroGasolina(marca,matricula,nif,velocidade,preco,consumo, autonomia, posicao,disponivel,classificacao,datasAlugueres);
         }else{
-            vr = tipoVeiculo == 2 ? new CarroEletrico(marca, matricula, nif, velocidade, preco, consumo, autonomia, posicao, disponivel, classificacao, datasAlugueres) : new CarroHibrido(marca, matricula, nif, velocidade, preco, consumo, autonomia, posicao, disponivel, classificacao, datasAlugueres);
+            if (tipoVeiculo == 2){
+                vr =  new CarroEletrico(marca,matricula,nif,velocidade,preco,consumo, autonomia, posicao,disponivel,classificacao,datasAlugueres);
+            }else{
+                vr = new CarroHibrido(marca,matricula,nif,velocidade,preco,consumo, autonomia, posicao,disponivel,classificacao,datasAlugueres);
+            }
         }
 
         try {
@@ -680,7 +721,7 @@ public class UmCarroJaApp{
 
         UmCarroJaApp.clearScreen();
 
-        if(alugs.isEmpty()) {
+        if(alugs.size() == 0) {
             out.print("Não existe alugures entre essas datas.");
         } else {
             for(Aluguer a : alugs){
@@ -790,7 +831,7 @@ public class UmCarroJaApp{
     }
 
     private static List<Aluguer> filterAlugueresBD (List<Aluguer> alugs, GregorianCalendar dataInicio, GregorianCalendar dataFim) {
-        List<Aluguer> res = alugs.stream().filter(a -> a.getDataInicio().after(dataInicio) && a.getDataFim().before(dataFim) && a.getRealizado()).collect(Collectors.toList());
+        List<Aluguer> res = alugs.stream().filter(a -> a.getDataInicio().after(dataInicio) && a.getDataFim().before(dataFim) && a.getRealizado() == true).collect(Collectors.toList());
 
         TreeSet<Aluguer> resOrd = new TreeSet<>(new Comparator<Aluguer>() {
             public int compare (Aluguer a1, Aluguer a2) {
@@ -805,7 +846,7 @@ public class UmCarroJaApp{
             resOrd.add(a.clone());
         }
 
-        return new ArrayList<>(resOrd);
+        return resOrd.stream().collect(Collectors.toList());
     }
 
     private static void meusAlugueresEntreDatasProp(){
@@ -825,7 +866,7 @@ public class UmCarroJaApp{
         List<Aluguer> res = filterAlugueresBD(alugs, dataInicio, dataFim);
 
         UmCarroJaApp.clearScreen();
-        if(alugs.isEmpty()) {
+        if(alugs.size() == 0) {
             out.print("Não existem alugures entre essas datas.");
         } else {
             for(Aluguer a : res){
@@ -853,7 +894,7 @@ public class UmCarroJaApp{
                 case 1: aluguerMaisProximo();
                         break;
                 case 2: aluguerMaisBarato();
-                        break;
+                        break;     
                 case 3: aluguerMaisBaratoPerimetro();
                         break;
                 case 4: aluguerVeiculoEspecifico();
@@ -869,7 +910,10 @@ public class UmCarroJaApp{
     }
 
     private static boolean verificaData (GregorianCalendar inicio, GregorianCalendar fim){
-        return (!inicio.equals(dataInicioApp) && !inicio.after(dataInicioApp)) || (!fim.equals(inicio) && !fim.after(inicio));
+        if ((inicio.equals(dataInicioApp) || inicio.after(dataInicioApp)) && (fim.equals(inicio) || fim.after(inicio))){
+            return true;
+        }
+        return false;
     }
 
     private static void classificarVeiculos(){
@@ -912,7 +956,7 @@ public class UmCarroJaApp{
 
             out.print("Digite a Data de Fim de Aluguer (dd-mm-aaaa): ");
             dataFim = Input.lerData("Data de Fim de Aluguer Inválida!", "Digite novamente a Data de Fim de Aluguer (dd-mm-aaaa): ");
-        }while (verificaData(dataInicio, dataFim));
+        }while (!verificaData(dataInicio, dataFim));
 
         out.print("Digite a Latitude do Destino: ");
         latitude = Input.lerDouble("Latitude Inválida!", "Digite Novamente a Latitude: ");
@@ -945,7 +989,7 @@ public class UmCarroJaApp{
             out.print("Introduza a Matrícula do Veículo que Pretende Alugar: ");
             matricula = Input.lerString("Matricula Inválida!", "Digite Novamente a Matrícula do Veículo: ");
             final String matr = matricula;
-            if (veiculosMaisProximo.stream().anyMatch(v -> v.getMatricula().equals(matr))){
+            if (veiculosMaisProximo.stream().filter(v -> v.getMatricula().equals(matr)).count() > 0){
                 correto = true;
             }
         }while(!correto);
@@ -969,7 +1013,7 @@ public class UmCarroJaApp{
 
             out.print("Digite a data de fim de aluguer (dd-mm-aaaa): ");
             dataFim = Input.lerData("Data de Início de Aluguer Inválida!", "Digite Novamente a Data de Fim de Aluguer (dd-mm-aaaa): ");
-        }while (verificaData(dataInicio, dataFim));
+        }while (!verificaData(dataInicio, dataFim));
 
         out.print("Digite a latitude de destino: ");
         latitude = Input.lerDouble("Latitude Inválida!", "Digite novamente a latitude: ");
@@ -1002,7 +1046,7 @@ public class UmCarroJaApp{
             out.print("Introduza a Matrícula do Veículo que Pretende Alugar: ");
             matricula = Input.lerString("Matricula Inválida!", "Digite Novamente a Matrícula do Veículo: ");
             final String matr = matricula;
-            if (veiculosMaisBaratos.stream().anyMatch(v -> v.getMatricula().equals(matr))){
+            if (veiculosMaisBaratos.stream().filter(v -> v.getMatricula().equals(matr)).count() > 0){
                 correto = true;
             }
         }while(!correto);
@@ -1028,7 +1072,7 @@ public class UmCarroJaApp{
 
             out.print("Digite a data de fim de aluguer (dd-mm-aaaa): ");
             dataFim = Input.lerData("Data de Início de Aluguer Inválida!", "Digite Novamente a Data de Fim de Aluguer (dd-mm-aaaa): ");
-        }while (verificaData(dataInicio, dataFim));
+        }while (!verificaData(dataInicio, dataFim));
 
         out.print("Digite a latitude de destino: ");
         latitude = Input.lerDouble("Latitude Inválida!", "Digite novamente a latitude: ");
@@ -1064,7 +1108,7 @@ public class UmCarroJaApp{
             out.print("Introduza a Matrícula do Veículo que Pretende Alugar: ");
             matricula = Input.lerString("Matricula Inválida!", "Digite Novamente a Matrícula do Veículo: ");
             final String matr = matricula;
-            if (veiculosMaisBaratosPeri.stream().anyMatch(v -> v.getMatricula().equals(matr))){
+            if (veiculosMaisBaratosPeri.stream().filter(v -> v.getMatricula().equals(matr)).count() > 0){
                 correto = true;
             }
         }while(!correto);
@@ -1086,7 +1130,7 @@ public class UmCarroJaApp{
 
             out.print("Digite a data de fim de aluguer (dd-mm-aaaa): ");
             dataFim = Input.lerData("Data de Início de Aluguer Inválida!", "Digite Novamente a Data de Fim de Aluguer (dd-mm-aaaa): ");
-        }while (verificaData(dataInicio, dataFim));
+        }while (!verificaData(dataInicio, dataFim));
 
         out.print("Introduza a Matrícula do veículo pretendido");
         matricula = Input.lerString("Matricula Inválida!", "Digite novamente a matricula do veículo: ");
@@ -1132,7 +1176,7 @@ public class UmCarroJaApp{
 
             out.print("Digite a data de fim de aluguer (dd-mm-aaaa): ");
             dataFim = Input.lerData("Data de Início de Aluguer Inválida!", "Digite Novamente a Data de Fim de Aluguer (dd-mm-aaaa): ");
-        }while(verificaData(dataInicio, dataFim));
+        }while(!verificaData(dataInicio, dataFim));
 
         out.print("Digite a latitude de destino: ");
         latitude = Input.lerDouble("Latitude Inválida!", "Digite novamente a latitude: ");
@@ -1178,7 +1222,7 @@ public class UmCarroJaApp{
             out.print("Introduza a Matrícula do Veículo que Pretende Alugar: ");
             matricula = Input.lerString("Matricula Inválida!", "Digite Novamente a Matrícula do Veículo: ");
             final String matr = matricula;
-            if (veiculosDetAutonomia.stream().anyMatch(v -> v.getMatricula().equals(matr))){
+            if (veiculosDetAutonomia.stream().filter(v -> v.getMatricula().equals(matr)).count() > 0){
                 correto = true;
             }
         }while(!correto);
@@ -1211,7 +1255,7 @@ public class UmCarroJaApp{
         List<Aluguer> res = filterAlugueresBD(alugs, dataInicio, dataFim);
 
         UmCarroJaApp.clearScreen();
-        if (res.isEmpty()) {
+        if (res.size() == 0) {
             out.print("Não existem alugures entre essas datas.");
         } else {
             for (Aluguer a : res) {
@@ -1255,42 +1299,38 @@ public class UmCarroJaApp{
             }
             while((linha = inFile.readLine()) != null){
                 linhas = linha.split(":", 2);
-                switch (linhas[0]) {
-                    case "NovoProp":
-                        try {
-                            Proprietario prop = ParseDados.parseProprietario(linhas[1]);
-                            ucj.registarUtilizador(prop);
-                        } catch (UtilizadorJaExisteException e) {
-                            out.println("O proprietário com o email: " + e.getMessage() + " já se encontra registado!\n");
-                        }
-                        break;
-                    case "NovoCliente":
-                        try {
-                            Cliente cli = ParseDados.parseCliente(linhas[1]);
-                            ucj.registarUtilizador(cli);
-                        } catch (UtilizadorJaExisteException e) {
-                            out.println("O cliente com o email: " + e.getMessage() + " já se encontra registado!\n");
-                        }
-                        break;
-                    case "NovoCarro":
-                        try {
-                            Veiculo v = ParseDados.parseVeiculo(linhas[1]);
-                            ucj.registarVeiculo(v);
-                        } catch (VeiculoJaExisteException e) {
-                            out.println("O veículo com a matrícula: " + e.getMessage() + " já foi inserido!");
-                        }
-                        break;
-                    case "Aluguer":
-                        parseAluguer(linhas[1]);
-                        break;
-                    case "Classificar":
-                        parseClassificar(linhas[1]);
-                        break;
-                    default:
-                        break;
+                if (linhas[0].equals("NovoProp")){
+                    try{
+                        Proprietario prop = ParseDados.parseProprietario(linhas[1]);
+                        ucj.registarUtilizador(prop);
+                    }catch(UtilizadorJaExisteException e){
+                        out.println("O proprietário com o email: " + e.getMessage() + " já se encontra registado!\n");
+                    }
+                }
+                if (linhas[0].equals("NovoCliente")){
+                    try{
+                        Cliente cli = ParseDados.parseCliente(linhas[1]);
+                        ucj.registarUtilizador(cli);
+                    }catch(UtilizadorJaExisteException e){
+                        out.println("O cliente com o email: " + e.getMessage() + " já se encontra registado!\n");
+                    }
+                }
+                if (linhas[0].equals("NovoCarro")){
+                    try {
+                        Veiculo v = ParseDados.parseVeiculo(linhas[1]);
+                        ucj.registarVeiculo(v);
+                    } catch (VeiculoJaExisteException e) {
+                        out.println("O veículo com a matrícula: " + e.getMessage() + " já foi inserido!");
+                    }
+                }
+                if (linhas[0].equals("Aluguer")){
+                    parseAluguer(linhas[1]);
+                }
+                if (linhas[0].equals("Classificar")){
+                    parseClassificar(linhas[1]);
                 }
             }
-            UmCarroJaApp.guardarDados();
+            //UmCarroJaApp.guardarDados();
         }
         catch (IOException exc){
             out.println("Erro ao ler ficheiro de texto!");
@@ -1327,57 +1367,48 @@ public class UmCarroJaApp{
        Veiculo v = new Veiculo();
 
         if (dados[4].equals("MaisBarato")){
-            switch (dados[3]) {
-                case "Electrico":
-                    try {
-                        v = ucj.maisBaratoJa(cords, datas, "CarroEletrico");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                case "Hibrido":
-                    try {
-                        v = ucj.maisBaratoJa(cords, datas, "CarroHibrido");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                case "Gasolina":
-                    try {
-                        v = ucj.maisBaratoJa(cords, datas, "CarroGasolina");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                default:
-                    break;
+            if (dados[3].equals("Electrico")){
+                try {
+                    v = ucj.maisBaratoJa(cords, datas, "CarroEletrico");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
             }
-        }
-        else{
-            switch (dados[3]) {
-                case "Electrico":
-                    try {
-                        v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroEletrico");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                case "Hibrido":
-                    try {
-                        v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroHibrido");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                case "Gasolina":
-                    try {
-                        v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroGasolina");
-                    } catch (NaoExistemVeiculosDisponiveisException e) {
-                        out.println("Não existem veículos disponíveis para alugar!\n");
-                    }
-                    break;
-                default:
-                    break;
+            if (dados[3].equals("Hibrido")){
+                try{
+                    v = ucj.maisBaratoJa(cords, datas, "CarroHibrido");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
+            }
+            if (dados[3].equals("Gasolina")){
+                try {
+                    v = ucj.maisBaratoJa(cords, datas, "CarroGasolina");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
+            }
+        }else{
+            if (dados[3].equals("Electrico")){
+                try{
+                    v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroEletrico");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
+            }
+            if (dados[3].equals("Hibrido")){
+                try{
+                    v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroHibrido");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
+            }
+            if (dados[3].equals("Gasolina")){
+                try{
+                    v = ucj.maisPertoJa(cli.getPosicao().clone(), cords.clone(), datas, "CarroGasolina");
+                }catch(NaoExistemVeiculosDisponiveisException e){
+                    out.println("Não existem veículos disponíveis para alugar!\n");
+                }
             }
         }
        double dist = v.getPosicao().getDistancia(cords);
@@ -1387,7 +1418,7 @@ public class UmCarroJaApp{
        ucj.alterarPosAutonomiaVeiculo(v.getMatricula(), cords.clone());
        ucj.alterarPosCliente(mail, cords.clone());
     }
-
+    
     public static void parseClassificar(String linha){
         String [] dados = linha.split(",");
         int classificacao = 0;

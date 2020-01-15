@@ -151,33 +151,82 @@ public class UmCarroJaApp{
         System.out.print('\u000C');
     }
     
-    public static void main(String[] args){
-        //initApp();
-        initMenus();
+    public static void main(String[] args) throws NaoExistemClientesException {
+
+        //Carregamento do ficheiro
         ucj = new UmCarroJa();
-        lerDadosTXT("logsTestXXXLarge.bak");
-        out.println("NÚMERO UTILIZADORES: " + ucj.getNUsers());
-        out.println("NÚMERO VEÍCULOS: " + ucj.getNVeiculos());
-        out.println("NÚMERO ALUGUERES: " + ucj.getNAlugs());
-        //printUsers();
-        //printVeiculos();
-        //printAlugs();
-        lerData();
-        
-        ucj.alugueresEfetuados(dataInicioApp);
-        do{
-            UmCarroJaApp.clearScreen();
-            menuInicial.executa();
-            switch(menuInicial.getOpcao()){
-                case 1: menuUtilizador();
-                        break;
-                case 2: menuAdmin();
-                        break;
-                case 3: guardarDados();
-                        break;
-            }
-        }while(menuInicial.getOpcao() != 0);
-        guardarDados();
+        long start = System.currentTimeMillis();
+        double[] before = EnergyCheckUtils.getEnergyStats();
+        lerDadosTXT("logsPOO_carregamentoInicial.bak");
+        double[] after = EnergyCheckUtils.getEnergyStats();
+        long finish = System.currentTimeMillis();
+        long timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+        //GET CLIENTS WITH MORE ALUGUERES
+        start = System.currentTimeMillis();
+        before = EnergyCheckUtils.getEnergyStats();
+        ucj.get10ClientesAlugueres();
+        after = EnergyCheckUtils.getEnergyStats();
+        finish = System.currentTimeMillis();
+        timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+        //ADDUSER
+        try{
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            GregorianCalendar in = new GregorianCalendar();
+            Utilizador u = new Utilizador("ats", "999999999", "ats@gmail.com", "999999999", "UM", in);
+            ucj.registarUtilizador(u);
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch(UtilizadorJaExisteException e){
+            e.printStackTrace();
+        }
+
+        //ADD CAR
+        try {
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            Coordinate p = new Coordinate(10,10);
+            List<ParDatas> l = new ArrayList<>();
+            Veiculo v = new Veiculo("BMW","AA-00-AA","999999999",260,1.4,10.8,360,p,true,5,l);
+            ucj.registarVeiculo(v);
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch (VeiculoJaExisteException e) {
+            e.printStackTrace();
+        }
+
+        //INICIAR SESSÃO
+        try{
+            start = System.currentTimeMillis();
+            before = EnergyCheckUtils.getEnergyStats();
+            ucj.iniciarSessao("ats@gmail.com", "999999999");
+            after = EnergyCheckUtils.getEnergyStats();
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
+            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        } catch (UtilizadorNaoExisteException | PasswordIncorretaException e){
+            e.printStackTrace();
+        }
+
+        //GET BEST CLIENTS WITH MORE KM
+        start = System.currentTimeMillis();
+        before = EnergyCheckUtils.getEnergyStats();
+        ucj.get10ClientesKm();
+        after = EnergyCheckUtils.getEnergyStats();
+        finish = System.currentTimeMillis();
+        timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+
+
+
     }
     
     /******************************************************************************
@@ -1281,7 +1330,7 @@ public class UmCarroJaApp{
                     parseClassificar(linhas[1]);
                 }
             }
-            UmCarroJaApp.guardarDados();
+            //UmCarroJaApp.guardarDados();
         }
         catch (IOException exc){
             out.println("Erro ao ler ficheiro de texto!");

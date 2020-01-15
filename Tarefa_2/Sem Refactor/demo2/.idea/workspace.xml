@@ -1,37 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2168705-b8b6-47a1-824c-0d72a2e64721" name="Default Changelist" comment="" />
+    <list default="true" id="3baf4556-417c-400c-861c-bb83ff8b84f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsPOO_carregamentoInicial.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsPOO_carregamentoInicial.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestLarge.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestLarge.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestMid.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Aluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/AluguerNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/CarroEletrico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/CarroGasolina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/CarroHibrido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Classificação.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorAutonomia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorKm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorNAluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorPreco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Coordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/CoordinateManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemAlugueresException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemClientesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ParDatas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/ParseDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/PasswordIncorretaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Proprietario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJa$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJaApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Utilizador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UtilizadorJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/UtilizadorNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Veiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoIndisponivelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoNaoESeuException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Weather$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1UG0X3Ah9u1qFV9fUjyNHLu5gjG" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1WRoFgv6U53949lg3K155ZLV0K4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aRed smell" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/demo2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
-    <configuration name="UmCarroJaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UmCarroJaApp" />
-      <module name="main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.UmCarroJaApp" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/demo2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/demo2" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,50 +101,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2168705-b8b6-47a1-824c-0d72a2e64721" name="Default Changelist" comment="" />
-      <created>1574967660102</created>
+      <changelist id="3baf4556-417c-400c-861c-bb83ff8b84f1" name="Default Changelist" comment="" />
+      <created>1579121665980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574967660102</updated>
+      <updated>1579121665980</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1326" height="297" key="GridCell.Tab.0.bottom" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="696" y="357" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579122743501">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.0.center" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="696" y="357" width="584" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1579122743501" />
+    <state x="746" y="439" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579121691266">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.0.left" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="746" y="439" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1579121691266" />
+    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1579126803539">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.0.right" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="771" y="296" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1579126803539" />
+    <state x="302" y="153" width="1372" height="798" key="new project wizard" timestamp="1579130516834">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.1.bottom" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="302" y="153" width="1372" height="798" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1579130516834" />
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579128106152">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1326" height="297" key="GridCell.Tab.1.bottom/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.1.center" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
-    </state>
-    <state width="1326" height="297" key="GridCell.Tab.1.center/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.1.left" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
-    </state>
-    <state width="1326" height="297" key="GridCell.Tab.1.left/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state width="1326" height="297" key="GridCell.Tab.1.right" timestamp="1575388937836">
-      <screen x="0" y="0" width="1368" height="912" />
-    </state>
-    <state width="1326" height="297" key="GridCell.Tab.1.right/0.0.1368.912@0.0.1368.912" timestamp="1575388937836" />
-    <state x="186" y="98" key="SettingsEditor" timestamp="1575386878452">
-      <screen x="0" y="0" width="1368" height="912" />
-    </state>
-    <state x="186" y="98" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1575386878452" />
+    <state x="718" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579128106152" />
   </component>
 </project>
