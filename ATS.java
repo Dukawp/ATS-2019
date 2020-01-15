@@ -30,7 +30,7 @@ public class ATS implements Runnable{
                 uc = UMCarroJa.read(".tmp");            
             }
             catch (IOException | ClassNotFoundException e) {
-                new Parser("logsPOO_carregamentoInicial.bak", uc);
+                new Parser("logsTestMini.bak", uc);
             }
             double[] after = EnergyCheckUtils.getEnergyStats();
             long finish = System.currentTimeMillis();

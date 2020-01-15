@@ -44,6 +44,10 @@ public class UMCarroJa implements Serializable {
                 .collect(Collectors.toList());
     }
 
+    public void exit(){
+        System.exit(0);
+    }
+
     public List<Entry<String, Integer>> getBestClientsTimes() {
         return this
                 .users
