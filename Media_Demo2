@@ -1,0 +1,420 @@
+AutoRefator:
+
+LOGS PROF
+
+File Prof: DRAM: 2.18342
+		   CPU: 39.48154
+		   Package: 41.65881
+		   Tempo execução: 968.2
+
+Registar: DRAM: 0 
+		   CPU: 0.00699
+		   Package: 0
+		   Tempo execução: 0.3
+
+Add Carro: DRAM: 0.00012
+		   CPU: 0.00656
+		   Package: 0.00807
+		   Tempo execução: 0.3
+
+Login: DRAM: 0.00012
+	   CPU: 0.00387
+	   Package: 0
+	   Tempo execução: 0.1
+
+Melhores Clientes KM: DRAM: 0.00287
+		              CPU: 0.05274
+		              Package: 0.05569
+		              Tempo execução: 1.2
+
+
+-----------------------------------------
+
+
+Large
+
+
+File Prof: DRAM: 8.40006
+		   CPU: 137.02126
+		   Package: 147.03326
+		   Tempo execução: 5419.1
+
+Melhores Clientes Alugueres: DRAM: 0.00524
+		              		 CPU: 0.17242
+		              		 Package: 0.18334
+		              		 Tempo execução:3.4
+
+Registar: DRAM: 0.0004
+		   CPU: 0.00802
+		   Package: 0.0194
+		   Tempo execução: 0.3
+
+Add Carro: DRAM: 0.00013
+		   CPU: 0.00761
+		   Package: 0.00517
+		   Tempo execução: 0.2
+
+Login: DRAM: 0.0
+	   CPU: 0.00654
+	   Package: 0.0
+	   Tempo execução: 0.1
+
+Melhores Clientes KM: DRAM: 0.00305
+		              CPU: 0.10319
+		              Package: 0.0985
+		              Tempo execução: 2.2 
+
+-----------------------------------------
+
+
+Mini 
+
+
+File Prof: DRAM: 1.48829
+		   CPU: 35.34703
+		   Package: 37.05529 
+		   Tempo execução: 894.3
+
+Melhores Clientes Alugueres: DRAM: 0.00307
+		              		 CPU: 0.09922
+		              		 Package: 0.11434
+		              		 Tempo execução: 2.2
+
+Registar: DRAM: 0.00041
+		   CPU: 0.00645
+		   Package: 0.01528
+		   Tempo execução: 0.2
+
+Add Carro: DRAM: 0.00026
+		   CPU: 0.00699
+		   Package: 0.01093
+		   Tempo execução: 0.1
+
+Login: DRAM:  0.0
+	   CPU: 0.00556
+	   Package: 0.0
+	   Tempo execução: 0.5
+
+Melhores Clientes KM: DRAM: 0.0014
+		              CPU: 0.04601
+		              Package: 0.05128
+		              Tempo execução: 1
+
+-----------------------------------------
+-----------------------------------------
+
+Com Refator Streams:
+
+LOGS PROF
+
+File Prof: DRAM: 1.32033
+		   CPU: 26.70349
+		   Package: 28.09232
+		   Tempo execução: 611.9
+
+Registar: DRAM: 0.00011 
+		   CPU: 0.00656
+		   Package: 0.00599
+		   Tempo execução: 0.6
+
+Add Carro: DRAM: 0.00031
+		   CPU: 0.00394
+		   Package: 0.00742
+		   Tempo execução: 0.1
+
+Login: DRAM: 0.00012
+	   CPU: 0.00234
+	   Package: 0.00357
+	   Tempo execução: 0.2
+
+Melhores Clientes KM: DRAM: 0.00127
+		              CPU: 0.02188
+		              Package: 0.02691 
+		              Tempo execução: 0.9 
+
+
+-----------------------------------------
+
+
+Large
+
+
+File Prof: DRAM: 5.08705
+		   CPU: 86.00192
+		   Package: 91.78955
+		   Tempo execução: 3077.5
+
+Melhores Clientes Alugueres: DRAM: 0.00435
+		              		 CPU: 0.15324
+		              		 Package: 0.15924
+		              		 Tempo execução: 2.9
+
+Registar: DRAM: 0.00035
+		   CPU: 0.00814
+		   Package: 0.00507
+		   Tempo execução: 0.5
+
+Add Carro: DRAM: 0.00023
+		   CPU: 0.00649
+		   Package: 0.00490
+		   Tempo execução: 0.3
+
+Login: DRAM: 0.00013
+	   CPU: 0.00463
+	   Package: 0.00661
+	   Tempo execução: 0.1
+
+Melhores Clientes KM: DRAM: 0.00284
+		              CPU: 0.09333
+		              Package: 0.09742
+		              Tempo execução: 2.2  
+
+-----------------------------------------
+
+
+Mini 
+
+
+File Prof: DRAM: 0.95975
+		   CPU: 23.66612
+		   Package: 24.72881  
+		   Tempo execução: 562
+
+Melhores Clientes Alugueres: DRAM: 0.00215
+		              		 CPU: 0.07865
+		              		 Package: 0.07794
+		              		 Tempo execução: 1.6 
+
+Registar: DRAM: 0.0
+		   CPU: 0.00627
+		   Package: 0.0
+		   Tempo execução: 0.1
+
+Add Carro: DRAM: 0.00009
+		   CPU: 0.00707
+		   Package: 0.0050
+		   Tempo execução: 0.4
+
+Login: DRAM: 0.0  
+	   CPU: 0.00549
+	   Package: 0.0
+	   Tempo execução: 0.3 
+
+Melhores Clientes KM: DRAM: 0.97706
+		              CPU: 0.04681
+		              Package: 0.04776
+		              Tempo execução: 1.1
+
+-----------------------------------------
+-----------------------------------------
+
+Com Refator:
+
+LOGS PROF
+
+File Prof: DRAM: 1.72605
+		   CPU: 33.37742
+		   Package: 35.30006
+		   Tempo execução: 784.5
+
+Registar: DRAM: 0.00025
+		   CPU: 0.00559
+		   Package: 0.00322
+		   Tempo execução: 0.4 
+
+Add Carro: DRAM: 0.00011
+		   CPU: 0.00598
+		   Package: 0.01125
+		   Tempo execução: 0.2
+
+Login: DRAM: 0.00037
+	   CPU: 0.00356
+	   Package: 0.01022
+	   Tempo execução: 0.3
+
+Melhores Clientes KM: DRAM: 0.0019
+		              CPU: 0.05209
+		              Package: 0.04885 
+		              Tempo execução: 1.4  
+
+
+-----------------------------------------
+
+
+Large
+
+
+File Prof: DRAM: 6.98155
+		   CPU: 109.78915
+		   Package: 117.77985
+		   Tempo execução: 4269.2
+
+Melhores Clientes Alugueres: DRAM: 0.00501
+		              		 CPU: 0.17731
+		              		 Package: 0.1907
+		              		 Tempo execução: 
+
+Registar: DRAM: 0.00010
+		   CPU: 3.5
+		   Package: 0.00320
+		   Tempo execução: 0.3
+
+Add Carro: DRAM: 0.0004
+		   CPU: 0.00659
+		   Package: 0.01858
+		   Tempo execução: 0.2
+
+Login: DRAM: 0.00010
+	   CPU: 0.00573
+	   Package: 0.00447
+	   Tempo execução: 0.3
+
+Melhores Clientes KM: DRAM: 0.00311
+		              CPU: 0.09772
+		              Package: 0.10074
+		              Tempo execução: 2
+
+-----------------------------------------
+
+
+Mini 
+
+
+File Prof: DRAM: 1.29393
+		   CPU: 29.96796
+		   Package: 31.39994   
+		   Tempo execução: 744.2
+
+Melhores Clientes Alugueres: DRAM: 0.00339
+		              		 CPU: 0.10247
+		              		 Package: 0.11044
+		              		 Tempo execução: 2,1 
+
+Registar: DRAM: 0.00041
+		   CPU: 0.00579
+		   Package: 0.01486
+		   Tempo execução: 0.1
+
+Add Carro: DRAM: 0.00017
+		   CPU: 0.00695
+		   Package: 0.00524
+		   Tempo execução: 0.3
+
+Login: DRAM: 0.0   
+	   CPU: 0.00501
+	   Package: 0.0
+	   Tempo execução: 0.2 
+
+Melhores Clientes KM: DRAM: 0.00144 
+		              CPU: 0.05172
+		              Package: 0.05369 
+		              Tempo execução: 1,1
+
+-----------------------------------------
+-----------------------------------------
+
+
+Sem Refator:
+
+LOGS PROF
+
+File Prof: DRAM: 2.06946
+		   CPU: 38.82888
+		   Package: 41.16296 
+		   Tempo execução: 970.5
+
+Registar: DRAM: 0.00030
+		   CPU: 0.00641
+		   Package: 0.00468
+		   Tempo execução: 0.2 
+
+Add Carro: DRAM: 0.00032
+		   CPU: 0.00383
+		   Package: 0.00482 
+		   Tempo execução: 0.2
+0.00383
+Login: DRAM: 0.0
+	   CPU: 0.00378
+	   Package:0.0 
+	   Tempo execução: 0.2
+
+Melhores Clientes KM: DRAM: 0.0022
+		              CPU: 0.0444
+		              Package: 0.04509 
+		              Tempo execução: 1.4   
+
+
+-----------------------------------------
+
+
+Large
+
+
+File Prof: DRAM: 7.88351
+		   CPU: 127.66588
+		   Package: 137.16061
+		   Tempo execução: 5244.5
+
+Melhores Clientes Alugueres: DRAM: 0.00455
+		              		 CPU: 0.16949
+		              		 Package: 0.1676
+		              		 Tempo execução: 3.4
+
+Registar: DRAM: 0.000124
+		   CPU: 0.00676
+		   Package: 0.00518
+		   Tempo execução: 0.4
+
+Add Carro: DRAM: 0.00013 
+		   CPU: 0.00584
+		   Package: 0.0
+		   Tempo execução: 0.2 
+
+Login: DRAM: 0.0
+	   CPU: 0.00449
+	   Package: 0.00548
+	   Tempo execução: 0.1
+
+Melhores Clientes KM: DRAM: 0.00259
+		              CPU: 0.10088
+		              Package: 0.08756
+		              Tempo execução: 2
+
+-----------------------------------------
+
+
+Mini 
+
+
+File Prof: DRAM: 1.36161
+		   CPU: 32.85292
+		   Package: 34.37971 
+		   Tempo execução: 865.3
+
+Melhores Clientes Alugueres: DRAM: 0.00305
+		              		 CPU: 0.10111
+		              		 Package: 0.1144
+		              		 Tempo execução: 2 
+
+Registar: DRAM: 0.00024
+		   CPU: 0.00699
+		   Package: 0.01599
+		   Tempo execução: 0.2
+
+Add Carro: DRAM: 0.0
+		   CPU: 0.00743
+		   Package: 0.0
+		   Tempo execução: 0.7
+
+Login: DRAM: 0.00023
+	   CPU: 0.00524
+	   Package: 0.00906
+	   Tempo execução:  0.0
+
+Melhores Clientes KM: DRAM: 0.00112
+		              CPU: 0.05032
+		              Package: 0.04745 
+		              Tempo execução: 1
+
+-----------------------------------------
+-----------------------------------------
