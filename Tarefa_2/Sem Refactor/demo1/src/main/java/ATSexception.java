@@ -49,7 +49,7 @@ public class ATS implements Runnable{
             //ADDUSER
             try{
                 Owner a = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");
-                uc.addUser(a));
+                uc.addUser(a);
                 start = System.currentTimeMillis();
                 before = EnergyCheckUtils.getEnergyStats();
                 Owner u = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");  
@@ -63,10 +63,11 @@ public class ATS implements Runnable{
             }
             //ADD CAR
             try {
-                start = System.currentTimeMillis();
-                before = EnergyCheckUtils.getEnergyStats();
                 Owner u = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");  
                 Point p = new Point(1.0,2.1);
+                uc.addCar(u, "01-ATS-00", gas, 100.0, 1.50, 9.6, 120, p, "Aston");
+                start = System.currentTimeMillis();
+                before = EnergyCheckUtils.getEnergyStats();
                 uc.addCar(u, "01-ATS-00", gas, 100.0, 1.50, 9.6, 120, p, "Aston");
                 after = EnergyCheckUtils.getEnergyStats();
                 finish = System.currentTimeMillis();
@@ -80,7 +81,7 @@ public class ATS implements Runnable{
             try{
                 start = System.currentTimeMillis();
                 before = EnergyCheckUtils.getEnergyStats();
-                uc.logIn("ats@gmail.com", "ats@gmail.com");
+                uc.logIn("at@gmail.com", "ats@gmail.com");
                 after = EnergyCheckUtils.getEnergyStats();
                 finish = System.currentTimeMillis();
                 timeElapsed = finish - start;
