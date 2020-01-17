@@ -30,7 +30,7 @@ public class ATS implements Runnable{
                 uc = UMCarroJa.read(".tmp");            
             }
             catch (IOException | ClassNotFoundException e) {
-                new Parser("logsTestLarge.bak", uc);
+                new Parser("logsPOO_carregamentoInicial.bak", uc);
             }
             double[] after = EnergyCheckUtils.getEnergyStats();
             long finish = System.currentTimeMillis();
@@ -47,42 +47,50 @@ public class ATS implements Runnable{
             System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
 
             //ADDUSER
-            Owner a = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");
-            uc.addUser(a);
-            start = System.currentTimeMillis();
-            before = EnergyCheckUtils.getEnergyStats();
-            Owner u = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");
-            uc.addUser(u);
-            after = EnergyCheckUtils.getEnergyStats();
-            finish = System.currentTimeMillis();
-            timeElapsed = finish - start;
-            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
-
+            try{
+                Owner a = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");
+                uc.addUser(a));
+                start = System.currentTimeMillis();
+                before = EnergyCheckUtils.getEnergyStats();
+                Owner u = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");  
+                uc.addUser(u);
+                after = EnergyCheckUtils.getEnergyStats();
+                finish = System.currentTimeMillis();
+                timeElapsed = finish - start;
+                System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+            } catch(UserExistsException e){
+                e.printStackTrace();
+            }
             //ADD CAR
-
-            Point p = new Point(1.0,2.1);
-            uc.addCar(a, "01-ATS-00", gas, 100.0, 1.50, 9.6, 120, p, "Aston");
-
-            start = System.currentTimeMillis();
-            before = EnergyCheckUtils.getEnergyStats();
-            uc.addCar(u, "01-ATS-00", gas, 100.0, 1.50, 9.6, 120, p, "Aston");
-            after = EnergyCheckUtils.getEnergyStats();
-            finish = System.currentTimeMillis();
-            timeElapsed = finish - start;
-            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
-
+            try {
+                start = System.currentTimeMillis();
+                before = EnergyCheckUtils.getEnergyStats();
+                Owner u = new Owner("ats@gmail.com", "ats", "UM", 999999999, "ats@gmail.com");  
+                Point p = new Point(1.0,2.1);
+                uc.addCar(u, "01-ATS-00", gas, 100.0, 1.50, 9.6, 120, p, "Aston");
+                after = EnergyCheckUtils.getEnergyStats();
+                finish = System.currentTimeMillis();
+                timeElapsed = finish - start;
+                System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed); 
+            } catch (InvalidUserException | CarExistsException e) {
+                e.printStackTrace();
+            }
 
             //GET LOGIN
-            start = System.currentTimeMillis();
-            before = EnergyCheckUtils.getEnergyStats();
-            uc.logIn("at@gmail.com", "ats@gmail.com");
-            after = EnergyCheckUtils.getEnergyStats();
-            finish = System.currentTimeMillis();
-            timeElapsed = finish - start;
-            System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+            try{
+                start = System.currentTimeMillis();
+                before = EnergyCheckUtils.getEnergyStats();
+                uc.logIn("ats@gmail.com", "ats@gmail.com");
+                after = EnergyCheckUtils.getEnergyStats();
+                finish = System.currentTimeMillis();
+                timeElapsed = finish - start;
+                System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+            } catch (WrongPasswordExecption | InvalidUserException e){
+                e.printStackTrace();
+            }
 
 
-        //GET BEST CLIENTS TIMES
+            //GET BEST CLIENTS TIMES
             start = System.currentTimeMillis();
             before = EnergyCheckUtils.getEnergyStats();
             uc.getBestClientsTimes();
