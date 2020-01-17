@@ -157,7 +157,7 @@ public class UmCarroJaApp{
         ucj = new UmCarroJa();
         long start = System.currentTimeMillis();
         double[] before = EnergyCheckUtils.getEnergyStats();
-        lerDadosTXT("logsTestLarge.bak");
+        lerDadosTXT("logsPOO_carregamentoInicial.bak");
         double[] after = EnergyCheckUtils.getEnergyStats();
         long finish = System.currentTimeMillis();
         long timeElapsed = finish - start;

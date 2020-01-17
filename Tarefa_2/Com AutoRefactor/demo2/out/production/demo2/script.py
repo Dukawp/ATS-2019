@@ -3,11 +3,12 @@
 import subprocess, sys, csv
 
 loadRapl = []
-get10ClientesAlugueres = []
-registarUtilizador = []
-registarVeiculo = []
-iniciarSessao = []
-get10ClientesKm = []
+bestClients = []
+regist = []
+addCar = []
+login = []
+bestClientsTimes = []
+bestClientsTravel = []
 
 def prettyprint(name,arr):
   with open(sys.argv[1], mode='a') as test:
@@ -19,23 +20,25 @@ def prettyprint(name,arr):
 
 if len(sys.argv) > 1:
   for x in range(0,10):
-    bashCommand = 'java UmCarroJaApp' 
+    bashCommand = 'java ATS' 
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     utf8output = output.decode("utf-8").split("\n")
     loadRapl.append(utf8output[0])
-    get10ClientesAlugueres.append(utf8output[1])
-    registarUtilizador.append(utf8output[2])
-    registarVeiculo.append(utf8output[3])
-    iniciarSessao.append(utf8output[4])
-    get10ClientesKm.append(utf8output[5])
+    bestClients.append(utf8output[1])
+    regist.append(utf8output[2])
+    addCar.append(utf8output[3])
+    login.append(utf8output[4])
+    bestClientsTimes.append(utf8output[5])
+    bestClientsTravel.append(utf8output[6])
 
   prettyprint("Carregamento de ficheiro LOGS",loadRapl)
-  prettyprint("Melhores Clientes em termos de Alugueres",get10ClientesAlugueres)
-  prettyprint("Registar",registarUtilizador)
-  prettyprint("Adicionar Carro",registarVeiculo)
-  prettyprint("Login",iniciarSessao)
-  prettyprint("Melhores Clientes em termos de km percorridos",get10ClientesKm)
+  prettyprint("Melhores Clientes",bestClients)
+  prettyprint("Registar",regist)
+  prettyprint("Adicionar Carro",addCar)
+  prettyprint("Login",login)
+  prettyprint("Tempos de melhores clientes",bestClientsTimes)
+  prettyprint("Viagens de melhores clientes",bestClientsTravel)
   print(sys.argv[1]+" escrito com sucesso!")
 
 else:

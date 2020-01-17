@@ -2,227 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd2523a-1aaa-4e5e-970f-0cc74b5db0a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Com AutoRefactor/demo2/demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/libraries/gson_2_6_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/demo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com AutoRefactor/demo2/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com AutoRefactor/demo2/src/main/java/UmCarroJaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Duka_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Aluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/AluguerNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/CarroEletrico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/CarroGasolina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/CarroHibrido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Classificação.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorAutonomia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorKm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorNAluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ComparadorPreco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/CoordinateManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemAlugueresException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemClientesException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ParDatas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/ParseDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/PasswordIncorretaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Proprietario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJa$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJaApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UmCarroJaApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Utilizador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UtilizadorJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/UtilizadorNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Veiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoIndisponivelException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoNaoESeuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/VeiculoNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Weather$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Aluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/AluguerNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroEletrico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroGasolina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroHibrido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Classificação.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorAutonomia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorKm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorNAluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorPreco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Coordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CoordinateManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/EnergyCheckUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemAlugueresException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemClientesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ParDatas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ParseDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/PasswordIncorretaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Proprietario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJa$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJaApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Utilizador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UtilizadorJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UtilizadorNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Veiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoIndisponivelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoNaoESeuException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Weather$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/dvfs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/dvfs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/libCPUScaler.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsPOO_carregamentoInicial.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsTestLarge.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsTestMini.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/script.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/.idea/libraries/gson_2_6_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/.idea/libraries/gson_2_6_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/demo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/CPUScaler.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/CPUScaler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/CPUScaler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/RAPL/demo2/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/arch_spec.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/arch_spec.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/arch_spec.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/dvfs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/dvfs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/gson-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/libCPUScaler.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/logsPOO_carregamentoInicial.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/logsTestLarge.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/logsTestMid.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/msr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/msr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/msr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Aluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/AluguerNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CPUScaler.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CPUScaler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CPUScaler.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CarroEletrico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CarroGasolina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CarroHibrido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Classificação.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ComparadorAutonomia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ComparadorKm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ComparadorNAluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ComparadorPreco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/CoordinateManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/EnergyCheckUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/NaoExistemAlugueresException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/NaoExistemClientesException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ParDatas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/ParseDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/PasswordIncorretaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Proprietario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/RAPL/demo2/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UmCarroJa$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UmCarroJa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UmCarroJaApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UmCarroJaApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Utilizador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UtilizadorJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/UtilizadorNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Veiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/VeiculoIndisponivelException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/VeiculoJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/VeiculoNaoESeuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/VeiculoNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Weather$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/arch_spec.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/arch_spec.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/arch_spec.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/dvfs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/dvfs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/gson-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/libCPUScaler.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/logsPOO_carregamentoInicial.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/logsTestLarge.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/logsTestMid.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/msr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/msr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/demo2/production/demo2/msr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Aluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/AluguerNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/CarroEletrico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/CarroGasolina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/CarroHibrido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Classificação.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ComparadorAutonomia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ComparadorKm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ComparadorNAluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ComparadorPreco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/CoordinateManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/NaoExistemAlugueresException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/NaoExistemClientesException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ParDatas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/ParseDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/PasswordIncorretaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Proprietario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UmCarroJa$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UmCarroJa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UmCarroJaApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UmCarroJaApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Utilizador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UtilizadorJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/UtilizadorNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Veiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/VeiculoIndisponivelException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/VeiculoJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/VeiculoNaoESeuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/VeiculoNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Weather$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/out/production/main/gson-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/UmCarroJaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsPOO_carregamentoInicial.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsPOO_carregamentoInicial.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestLarge.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestLarge.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Com_Refactor/demo2/src/main/java/logsTestMid.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/libraries/gson_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/libraries/gson_2_6_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/libraries/gson_2_6_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Aluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/AluguerNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/CarroEletrico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/CarroGasolina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/CarroHibrido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Classificação.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ComparadorAutonomia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ComparadorKm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ComparadorNAluguer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ComparadorPreco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/CoordinateManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/NaoExistemAlugueresException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/NaoExistemClientesException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ParDatas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/ParseDados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/PasswordIncorretaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Proprietario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UmCarroJa$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UmCarroJa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UmCarroJaApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UmCarroJaApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Utilizador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UtilizadorJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/UtilizadorNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Veiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/VeiculoIndisponivelException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/VeiculoJaExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/VeiculoNaoESeuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/VeiculoNaoExisteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Weather$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/out/production/main/gson-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/src/main/java/UmCarroJaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logsPOO_carregamentoInicial.bak" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +79,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/demo2" />
@@ -274,5 +118,15 @@
       <updated>1579131547700</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="665" y="448" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579211925728">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="665" y="448" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053@67.27.1853.1053" timestamp="1579211925728" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1579212150694">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1579212150694" />
   </component>
 </project>

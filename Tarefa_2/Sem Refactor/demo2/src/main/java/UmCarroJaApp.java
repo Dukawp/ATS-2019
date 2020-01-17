@@ -164,13 +164,13 @@ public class UmCarroJaApp{
         System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
 
         //GET CLIENTS WITH MORE ALUGUERES
-        start = System.currentTimeMillis();
-        before = EnergyCheckUtils.getEnergyStats();
-        ucj.get10ClientesAlugueres();
-        after = EnergyCheckUtils.getEnergyStats();
-        finish = System.currentTimeMillis();
-        timeElapsed = finish - start;
-        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        //start = System.currentTimeMillis();
+        //before = EnergyCheckUtils.getEnergyStats();
+        //ucj.get10ClientesAlugueres();
+        //after = EnergyCheckUtils.getEnergyStats();
+        //finish = System.currentTimeMillis();
+        //timeElapsed = finish - start;
+        //System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
 
         //ADDUSER
         try{
