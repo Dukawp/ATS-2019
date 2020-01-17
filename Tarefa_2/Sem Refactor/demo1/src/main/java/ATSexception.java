@@ -8,7 +8,7 @@ import static Model.Car.CarType.gas;
 import Exceptions.*;
 import View.*;
 
-public class ATS implements Runnable{
+public class ATSexception implements Runnable{
 
     UMCarroJa uc = new UMCarroJa();
 
