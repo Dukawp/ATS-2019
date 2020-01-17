@@ -185,7 +185,7 @@ public class UMCarroJa implements Serializable {
         o.addCar(a);
     }
 
-    public void addCar(Owner os, String numberPlate, Car.CarType type, double avgSpeed, double basePrice, double gasMileage, int range, Point pos, String brand) throws CarExistsException, InvalidUserException {
+    public void addCar(Owner os, String numberPlate, Car.CarType type, double avgSpeed, double basePrice, double gasMileage, int range, Point pos, String brand) {
         Owner o = (Owner) this.users.getUser(os.getEmail());
         Car a = new Car(numberPlate, o, type, avgSpeed, basePrice, gasMileage, range, pos, brand);
         this.cars.addCar(a);
