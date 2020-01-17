@@ -30,7 +30,7 @@ public class ATSexception implements Runnable{
                 uc = UMCarroJa.read(".tmp");            
             }
             catch (IOException | ClassNotFoundException e) {
-                new Parser("logsTestLarge.bak", uc);
+                new Parser("logsPOO_carregamentoInicial.bak", uc);
             }
             double[] after = EnergyCheckUtils.getEnergyStats();
             long finish = System.currentTimeMillis();
