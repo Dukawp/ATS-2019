@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae7384e-da9a-4e37-92e3-1f446b7abb52" name="Default Changelist" comment="" />
+    <list default="true" id="6ae7384e-da9a-4e37-92e3-1f446b7abb52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Com_Refactor_Ex/demo1/src/main/java/ATS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor_Ex/demo1/src/main/java/ATS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Com_Refactor_Ex/demo1/src/main/java/ATS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Com_Refactor_Ex/demo1/src/main/java/ATS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,5 +54,11 @@
       <updated>1579257139636</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579290986881">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579290986881" />
   </component>
 </project>

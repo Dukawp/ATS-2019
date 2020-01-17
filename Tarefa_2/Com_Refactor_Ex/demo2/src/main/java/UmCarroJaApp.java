@@ -157,20 +157,20 @@ public class UmCarroJaApp{
         ucj = new UmCarroJa();
         long start = System.currentTimeMillis();
         double[] before = EnergyCheckUtils.getEnergyStats();
-        lerDadosTXT("logsPOO_carregamentoInicial.bak");
+        lerDadosTXT("logsTestLarge.bak");
         double[] after = EnergyCheckUtils.getEnergyStats();
         long finish = System.currentTimeMillis();
         long timeElapsed = finish - start;
         System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
 
         //GET CLIENTS WITH MORE ALUGUERES
-        //start = System.currentTimeMillis();
-        //before = EnergyCheckUtils.getEnergyStats();
-        //ucj.get10ClientesAlugueres();
-        //after = EnergyCheckUtils.getEnergyStats();
-        //finish = System.currentTimeMillis();
-        //timeElapsed = finish - start;
-        //System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
+        start = System.currentTimeMillis();
+        before = EnergyCheckUtils.getEnergyStats();
+        ucj.get10ClientesAlugueres();
+        after = EnergyCheckUtils.getEnergyStats();
+        finish = System.currentTimeMillis();
+        timeElapsed = finish - start;
+        System.out.println((after[0] - before[0])+ ","+(after[1] - before[1])+","+(after[2] - before[2])+ "," + timeElapsed);
 
         //ADDUSER
         try{

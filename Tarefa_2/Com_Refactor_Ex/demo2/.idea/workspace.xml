@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae7384e-da9a-4e37-92e3-1f446b7abb52" name="Default Changelist" comment="" />
+    <list default="true" id="7228ac77-7ac6-4576-983a-c2d4c17a8426" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/ATS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/java/ATS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/main/java/ATS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/src/main/java/ATS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Aluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/AluguerNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CPUScaler.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroEletrico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroGasolina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CarroHibrido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Classificação.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorAutonomia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorKm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorNAluguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ComparadorPreco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Coordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/CoordinateManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/EnergyCheckUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoEfetuouNenhumAluguerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemAlugueresException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemClientesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/NaoExistemVeiculosDisponiveisException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ParDatas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/ParseDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/PasswordIncorretaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Proprietario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJa$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJaApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UmCarroJaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Utilizador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UtilizadorJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/UtilizadorNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Veiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoIndisponivelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoJaExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoNaoESeuException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/VeiculoNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Weather$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/arch_spec.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/dvfs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/dvfs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/libCPUScaler.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsPOO_carregamentoInicial.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsTestLarge.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/logsTestMini.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/msr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo2/script1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UmCarroJaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem Refactor/demo2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +76,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1WWEqGyQPHF3aNI9rZ5mRHriZxF" />
+  <component name="ProjectId" id="1WXLWd1t6YWdWXkRgqbsLNTlVGi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,11 +110,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ae7384e-da9a-4e37-92e3-1f446b7abb52" name="Default Changelist" comment="" />
-      <created>1579257139636</created>
+      <changelist id="7228ac77-7ac6-4576-983a-c2d4c17a8426" name="Default Changelist" comment="" />
+      <created>1579291025842</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579257139636</updated>
+      <updated>1579291025842</updated>
     </task>
     <servers />
   </component>
