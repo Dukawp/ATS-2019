@@ -1,6 +1,5 @@
 package Model;
 
-import Exceptions.UnknownCarTypeException;
 import Utils.Point;
 
 import java.io.Serializable;
