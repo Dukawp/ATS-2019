@@ -106,9 +106,6 @@ public class Parser {
             }
         }
         catch (InvalidUserException
-                | UserExistsException
-                | CarExistsException
-                | UnknownCarTypeException
                 | UnknownCompareTypeException
                 | InvalidCarException ignored) {}
         return l;

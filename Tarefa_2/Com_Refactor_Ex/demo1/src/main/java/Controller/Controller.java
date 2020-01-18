@@ -23,14 +23,10 @@ public class Controller {
         while(this.menu.getRun()) {
             switch (menu.getMenu()) {
                 case Login:
-                    try {
-                        NewLogin r = menu.newLogin(error);
-                        user = model.logIn(r.getUser(), r.getPassword());
-                        menu.selectOption((user instanceof Client)? Menu.MenuInd.Client : Menu.MenuInd.Owner);
-                        error = "";
-                    }
-                    catch (InvalidUserException e){ error = "Invalid Username"; }
-                    catch (WrongPasswordExecption e){ error = "Invalid Password"; }
+                    NewLogin r = menu.newLogin(error);
+                    user = model.logIn(r.getUser(), r.getPassword());
+                    menu.selectOption((user instanceof Client)? Menu.MenuInd.Client : Menu.MenuInd.Owner);
+                    error = "";
                     break;
                 case RegisterClient:
                     try {
@@ -48,7 +44,6 @@ public class Controller {
                         error = "";
                     }
                     catch (InvalidNewRegisterException e){ error = "Parametros Inválidos"; }
-                    catch (UserExistsException e){ error = "Utilizador já existe"; }
                     break;
                 case RegisterOwner:
                     try {
@@ -65,7 +60,6 @@ public class Controller {
                         error = "";
                     }
                     catch (InvalidNewRegisterException e){ error = "Parametros Inválidos"; }
-                    catch (UserExistsException e){ error = "Utilizador já existe"; }
                     break;
                 case Closest:
                     try{
@@ -205,8 +199,6 @@ public class Controller {
                         error = "";
                     }
                     catch (InvalidNewRegisterException e){ error = "Parametros Inválidos"; }
-                    catch (CarExistsException e){ error = "Carro já existe"; }
-                    catch (InvalidUserException ignored) {}
                     break;
 
                 case NUses:
@@ -292,9 +284,9 @@ public class Controller {
                             break;
                         }
 
-                        RateOwnerCar r = this.menu.pendingRateShow(error, pR.get(0).toString(), pR.size());
+                        RateOwnerCar q = this.menu.pendingRateShow(error, pR.get(0).toString(), pR.size());
                       
-                        model.rate(cli, pR.get(0), r.getOwnerRate(), r.getCarRate());
+                        model.rate(cli, pR.get(0), q.getOwnerRate(), q.getCarRate());
 
                         error = "";
                     }
