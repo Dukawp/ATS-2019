@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="500ad5f9-54e5-477e-ae30-d28bf072e5cb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="258" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VNphjHdaGuYtGNb0JRNgzd515w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in demo1">
+    <configuration name="All in demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalTest.getCarID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RentalTest" />
+      <option name="METHOD_NAME" value="getCarID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalTest.getClientID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RentalTest" />
+      <option name="METHOD_NAME" value="getClientID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalTest.getOwnerID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RentalTest" />
+      <option name="METHOD_NAME" value="getOwnerID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalTest.getPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Model" />
+      <option name="MAIN_CLASS_NAME" value="Model.RentalTest" />
+      <option name="METHOD_NAME" value="getPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in demo1" />
+      <item itemvalue="JUnit.RentalTest.getCarID" />
+      <item itemvalue="JUnit.RentalTest.getClientID" />
+      <item itemvalue="JUnit.RentalTest.getOwnerID" />
+      <item itemvalue="JUnit.RentalTest.getPrice" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in demo1" />
+        <item itemvalue="JUnit.RentalTest.getPrice" />
+        <item itemvalue="JUnit.RentalTest.getCarID" />
+        <item itemvalue="JUnit.RentalTest.getOwnerID" />
+        <item itemvalue="JUnit.RentalTest.getClientID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="500ad5f9-54e5-477e-ae30-d28bf072e5cb" name="Default Changelist" comment="" />
+      <created>1577103527542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577103527542</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="187" key="#Project_Structure" timestamp="1577110549859">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="231" y="187" key="#Project_Structure/0.0.1368.912@0.0.1368.912" timestamp="1577110549859" />
+    <state x="140" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578346787239">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="140" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1578346787239" />
+    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577138138188">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="93" y="93" width="1181" height="725" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1368.912@0.0.1368.912" timestamp="1577138138188" />
+    <state x="470" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1577110546632">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="470" y="213" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1368.912@0.0.1368.912" timestamp="1577110546632" />
+    <state x="479" y="342" width="408" height="235" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578580227647">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="479" y="342" width="408" height="235" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1368.912@0.0.1368.912" timestamp="1578580227647" />
+    <state x="467" y="213" key="FileChooserDialogImpl" timestamp="1578346816908">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="467" y="213" key="FileChooserDialogImpl/0.0.1368.912@0.0.1368.912" timestamp="1578346816908" />
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom" timestamp="1578587090264">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1578587090264" />
+    <state width="1326" height="240" key="GridCell.Tab.0.center" timestamp="1578587090264">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1578587090264" />
+    <state width="1326" height="240" key="GridCell.Tab.0.left" timestamp="1578587090263">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1578587090263" />
+    <state width="1326" height="240" key="GridCell.Tab.0.right" timestamp="1578587090264">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="240" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1578587090264" />
+    <state width="1326" height="297" key="GridCell.Tab.1.bottom" timestamp="1577113617359">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.bottom/0.0.1368.912@0.0.1368.912" timestamp="1577113617359" />
+    <state width="1326" height="297" key="GridCell.Tab.1.center" timestamp="1577113617359">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.center/0.0.1368.912@0.0.1368.912" timestamp="1577113617359" />
+    <state width="1326" height="297" key="GridCell.Tab.1.left" timestamp="1577113617358">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.left/0.0.1368.912@0.0.1368.912" timestamp="1577113617358" />
+    <state width="1326" height="297" key="GridCell.Tab.1.right" timestamp="1577113617359">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1326" height="297" key="GridCell.Tab.1.right/0.0.1368.912@0.0.1368.912" timestamp="1577113617359" />
+    <state x="186" y="100" key="SettingsEditor" timestamp="1578342435542">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="186" y="100" key="SettingsEditor/0.0.1368.912@0.0.1368.912" timestamp="1578342435542" />
+    <state x="408" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577110539653">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="408" y="350" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1368.912@0.0.1368.912" timestamp="1577110539653" />
+    <state x="742" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578354317245">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="742" y="191" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1368.912@0.0.1368.912" timestamp="1578354317245" />
+    <state x="427" y="84" key="refactoring.ChangeSignatureDialog" timestamp="1577137735574">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="427" y="84" key="refactoring.ChangeSignatureDialog/0.0.1368.912@0.0.1368.912" timestamp="1577137735574" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo1$RentalTest_getPrice.ic" NAME="RentalTest.getPrice Coverage Results" MODIFIED="1578354232511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo1$CarsTest.ic" NAME="CarsTest Coverage Results" MODIFIED="1578347106722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo1$All_in_demo1.ic" NAME="All in demo1 Coverage Results" MODIFIED="1578580196944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/demo1$UsersTest.ic" NAME="UsersTest Coverage Results" MODIFIED="1578347496182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo1$Model_in_demo1.ic" NAME="Model in demo1 Coverage Results" MODIFIED="1578347531608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Model.*</FILTER>
+    </SUITE>
+  </component>
+</project>

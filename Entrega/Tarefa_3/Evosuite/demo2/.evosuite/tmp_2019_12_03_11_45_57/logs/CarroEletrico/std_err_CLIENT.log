@@ -1,0 +1,3 @@
+[MASTER] 11:50:32.978 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 11:50:45.897 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 11:50:49.269 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Predicate<T> : Type points to itself

@@ -1,0 +1,105 @@
+* Starting client
+* Connecting to master process on port 21518
+* Analyzing classpath: 
+  - C:/Users/Duka_/OneDrive/햞ea de Trabalho/ATS/Project/Tarefa 3/EvoSuite/demo1/out/production/demo1
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar
+  - C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\out\production\demo1
+* Finished analyzing classpath
+* Generating tests for class View.Menu
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:00:52.825 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\evosuite-seeds\View.Menu.seed
+* Loaded 0 tests from C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\evosuite-seeds\View.Menu.seed
+* Total number of test goals: 
+  - Line 279
+  - Branch 126
+  - Exception 0
+  - MutationFactory 330
+  - Output 65
+  - Method 22
+  - MethodNoException 22
+  - CBranchFitnessFactory 126
+* Using seed 1577214021208
+* Starting evolution
+* Search finished after 915s and 237 generations, 56863 statements, best individual has fitness: 271.32794146296266
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 19:17:20.826 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 85%
+* Total number of goals: 279
+* Number of covered goals: 238
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 126
+* Number of covered goals: 101
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 32
+* Number of covered goals: 32
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 59%
+* Total number of goals: 330
+* Number of covered goals: 195
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 29%
+* Total number of goals: 65
+* Number of covered goals: 19
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion METHODNOEXCEPTION
+[MASTER] 19:17:21.264 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] View.Menu.showString(Ljava/lang/String;)V
+[MASTER] 19:17:21.264 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] View.Menu.simpleCarRent(Ljava/lang/String;)LView/ViewModel/RentCarSimple;
+[MASTER] 19:17:21.266 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] View.Menu.walkingDistanceRent(Ljava/lang/String;)LView/ViewModel/CheapestNearCar;
+* Coverage of criterion METHODNOEXCEPTION: 77%
+* Total number of goals: 22
+* Number of covered goals: 17
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 80%
+* Total number of goals: 126
+* Number of covered goals: 101
+* Generated 107 tests with total length 1812
+* Resulting test suite's coverage: 75% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 19:18:01.494 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.6667% of time used, but only 43/107 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 18%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'Menu_ESTest' to C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\tmp_2019_12_24_19_00_07\tests
+* Done!
+

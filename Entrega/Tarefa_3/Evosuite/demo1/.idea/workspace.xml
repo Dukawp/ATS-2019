@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03b5b433-2a92-4e65-8dfd-1406cc4d778f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VRLQCWKcZp8ZBRUeLuNSUBrhyK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_231" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="cores_evosuite_param" value="4" />
+    <property name="evosuite_gui_dialog_height" value="300" />
+    <property name="evosuite_gui_dialog_width" value="570" />
+    <property name="evosuite_jar_location" value="C:\Users\Duka_\OneDrive\Área de Trabalho\ATS\evosuite-1.0.6.jar" />
+    <property name="execution_mode" value="MVN" />
+    <property name="memory_evosuite_param" value="2000" />
+    <property name="mvn_location" value="" />
+    <property name="target_folder_evosuite_param" value="src/evo" />
+    <property name="time_evosuite_param" value="3" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03b5b433-2a92-4e65-8dfd-1406cc4d778f" name="Default Changelist" comment="" />
+      <created>1577210942869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577210942869</updated>
+    </task>
+    <servers />
+  </component>
+</project>

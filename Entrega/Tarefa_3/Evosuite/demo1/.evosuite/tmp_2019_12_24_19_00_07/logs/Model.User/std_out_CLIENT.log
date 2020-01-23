@@ -1,0 +1,97 @@
+* Starting client
+* Connecting to master process on port 19286
+* Analyzing classpath: 
+  - C:/Users/Duka_/OneDrive/햞ea de Trabalho/ATS/Project/Tarefa 3/EvoSuite/demo1/out/production/demo1
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar
+  - C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\out\production\demo1
+* Finished analyzing classpath
+* Generating tests for class Model.User
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 19:09:12.292 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\evosuite-seeds\Model.User.seed
+* Loaded 0 tests from C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\evosuite-seeds\Model.User.seed
+* Total number of test goals: 
+  - Line 37
+  - Branch 32
+  - Exception 0
+  - MutationFactory 106
+  - Output 15
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 32
+* Using seed 1577214542048
+* Starting evolution
+* Search finished after 162s and 1287 generations, 472364 statements, best individual has fitness: 158.72222222222223
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 78%
+* Total number of goals: 37
+* Number of covered goals: 29
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 38%
+* Total number of goals: 32
+* Number of covered goals: 12
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 49%
+* Total number of goals: 106
+* Number of covered goals: 52
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 93%
+* Total number of goals: 15
+* Number of covered goals: 14
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 38%
+* Total number of goals: 32
+* Number of covered goals: 12
+* Generated 16 tests with total length 63
+* Resulting test suite's coverage: 74% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 42%
+* Compiling and checking tests
+* Writing JUnit test case 'User_ESTest' to C:\Users\Duka_\OneDrive\햞ea de Trabalho\ATS\Project\Tarefa 3\EvoSuite\demo1\.evosuite\tmp_2019_12_24_19_00_07\tests
+* Done!
+
