@@ -1,0 +1,10 @@
+Energy consumption of dram: 0.4660040000001118 Energy consumption of cpu: 10.249267000000145 Energy consumption of package: 10.786681999999928
+Energy consumption of dram: 0.4989630000000034 Energy consumption of cpu: 10.877074999999422 Energy consumption of package: 11.44964599999912
+Energy consumption of dram: 0.504455999999891 Energy consumption of cpu: 10.986450000000332 Energy consumption of package: 11.533203000000867
+Energy consumption of dram: 0.47375499999998283 Energy consumption of cpu: 10.516053000000284 Energy consumption of package: 11.068970000000263
+Energy consumption of dram: 0.5207519999999022 Energy consumption of cpu: 11.404113999999936 Energy consumption of package: 11.999633999999787
+Energy consumption of dram: 0.5982060000001184 Energy consumption of cpu: 12.643004999999903 Energy consumption of package: 13.310790999999881
+Energy consumption of dram: 0.5466919999998936 Energy consumption of cpu: 11.92040999999972 Energy consumption of package: 12.568297999998322
+Energy consumption of dram: 0.4884030000000621 Energy consumption of cpu: 10.785155999999915 Energy consumption of package: 11.322266000001036
+Energy consumption of dram: 0.5075070000000323 Energy consumption of cpu: 11.06018099999892 Energy consumption of package: 11.643372000000454
+Energy consumption of dram: 0.47228999999992993 Energy consumption of cpu: 10.377807999999277 Energy consumption of package: 10.925049000001309
